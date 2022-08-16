@@ -6,21 +6,21 @@ body {
   color: yellow;
   font-family: 'Roboto', 'sans-serif';
   height: 700px;
+  margin-left:63px;
+  margin-right: 63px;
 }
-
 .header {
 display: flex;
 /* border-style: solid;
 border-color: white; */
-justify-content: space-around;
+justify-content: space-between;
 
 }
 .Header.Logo {
 font-size: 24px;
-align-self: flex-start;
 color: #f9faf8;
+margin-left: 75px;
 }
-
 .link{
   display: flex;
   /* border-style: solid; */
@@ -28,26 +28,18 @@ color: #f9faf8;
   color: #e5e7eb;
   width: 500px;
   justify-content: space-around;
+  margin-right: 75px;
 }
-
 .hero {
-  /* display: flex; */
-  padding-left: 70px;
-  /* border-style: solid;
-  border-color: blue; */
-  justify-content: space-around;
-  width: 350px;
-  flex-wrap: wrap;
+  /* padding-left: 70px;
+  width: 350px; */
   font-size: 48px;
   font-weight: 1000;
   color:#f9faf8;
 }
 .secondary {
-  /* border-style: solid;
-  border-color: white; */
-  /* display: flex; */
-  width: 350px;
-  padding-left: 70px;
+  /* width: 350px;
+  padding-left: 70px; */
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -61,22 +53,28 @@ color: #f9faf8;
   min-height: 30px;
   margin-left: 70px;
   margin-top: 10px;
-}
-.img {
-  display: flex;
-  flex-direction: row-reverse;
-  border-style: solid;
-  border-color: red;
-  align-self: flex-end;
-  min-width: 350px;
-  min-height: 175px;
-  margin-right: 80px;
-  margin-bottom: 10px;
+  align-self: flex-start;
 }
 .general {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  justify-content: space-between;
+  align-items: center;
   border-style: solid;
   border-color: red;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  margin-top: 100px; */
+}
+img {
+  max-width: 50px;
+  height:50px;
+  /* height: 175px;
+  width: 350px;
+  /* align-self: flex-end; */
+  /* margin-right: 100px; */
+  /* vertical-align: middle; */ */
+
+
+
 }
